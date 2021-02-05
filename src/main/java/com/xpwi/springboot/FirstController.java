@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FirstController {
 
-    @RequestMapping("/first")
+    @RequestMapping("/third")
     public String first(){
-        return "This is the first SpringBoot";
+        return "This is the first SpringBoot,and edit by wang third";
     }
 }
