@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/git")
 public class GitTestController {
-    @RequestMapping("/test")
+    @RequestMapping("/edit")
     public String gittest(){
-        return "This is git test";
+        return "This is edit by git";
     }
 }
