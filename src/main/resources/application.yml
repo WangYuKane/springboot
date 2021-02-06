@@ -1,7 +1,12 @@
-server:port: 8085
+server:
+  port: 8085
 
 name: Y.Wang
 vueUrl: http://localhost:8080
+
+author:
+  name: Y.Wang
+  vueUrl: http://localhost:8080
 
 ## 应用名称
 #  spring.application.name=springboot
@@ -20,4 +25,9 @@ vueUrl: http://localhost:8080
 #  spring.datasource.url=jdbc:mysql://localhost:3306/blue?serverTimezone=UTC
 #  # 数据库用户名&密码：
 #  spring.datasource.username=***
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
 #  spring.datasource.password=***
